@@ -1,3 +1,7 @@
+"""
+https://docs.aws.amazon.com/rekognition/latest/dg/moderation-api.html#moderation-api-categories
+"""
+
 from . import L1 as _L1
 from .label import RekognitionLabel as _Label
 

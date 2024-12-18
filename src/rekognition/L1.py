@@ -1,3 +1,7 @@
+"""
+https://docs.aws.amazon.com/rekognition/latest/dg/moderation-api.html#moderation-api-categories
+"""
+
 from .label import RekognitionLabel as _Label
 
 _TAXONOMY_LEVEL = 1
