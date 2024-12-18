@@ -1,0 +1,23 @@
+[project]
+name = "rekognition"
+version = "0.1.0"
+requires-python = ">=3.13"
+readme = "README.md"
+description = "Simplifies handling of detect_moderate_labels responses by defining categories as classes."
+authors = [
+    { name = "Isaac Sánchez", email = "1031819+isaacasancheza@users.noreply.github.com"},
+]
+dependencies = [
+    "boto3",
+]
+
+[dependency-groups]
+dev = [
+    "mypy",
+    "pytest",
+    "boto3-stubs[rekognition]",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
